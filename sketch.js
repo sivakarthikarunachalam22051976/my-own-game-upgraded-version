@@ -15,21 +15,21 @@ var gameOver, restart;
 localStorage["HighestScore"] = 0;
 
 function preload(){
-  mario_running =   loadAnimation("images/walk1.png","images/walk2.png","images/walk3.png");
-  mario_collided = loadAnimation("images/marioUp.png");
+  mario_running =   loadAnimation("walk1.png","walk2.png","walk3.png");
+  mario_collided = loadAnimation("marioUp.png");
  
   
-  groundImage = loadImage("images/ground.png");
-  backgroundImage = loadImage("images/day.jpg");
+  groundImage = loadImage("ground.png");
+  backgroundImage = loadImage("day.jpg");
   
-  cloudImage = loadImage("images/cloud.png");
+  cloudImage = loadImage("cloud.png");
   
-  obstacle1 = loadImage("images/pipe.png");
-  obstacle2 = loadImage("images/flowerPipe.png");
-  obstacle3 = loadImage("images/mushroom.png");
+  obstacle1 = loadImage("pipe.png");
+  obstacle2 = loadImage("flowerPipe.png");
+  obstacle3 = loadImage("mushroom.png");
   
-  gameOverImg = loadImage("images/gameOverText.png");
-  restartImg = loadImage("images/restart.png");
+  gameOverImg = loadImage("gameOverText.png");
+  restartImg = loadImage("restart.png");
 }
 
 function setup() {
